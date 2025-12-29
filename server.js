@@ -1,5 +1,5 @@
 const http = require("http"); 
-const PORT = 80;
+const PORT = 3000;
 
 const server = http.createServer((req, res) => {
   res.end("Hello World - Projeto DevOps - alteração");
